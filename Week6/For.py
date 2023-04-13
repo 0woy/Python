@@ -43,15 +43,3 @@ a = int(input("몇 단을 출력할까요?: "))
 for i in range(1,10):
     print(a," X ",i," = ", a*i)
 
-#글자 수 세기 프로그램: 짝/쩍으로 구성된 문자열에서 글자 수 개수 세기
-
-
-#숫자 비교 프로그램: 7개의 정수를 입력 받아 크기 비교, 가장 큰 수 반환
-numList = []
-max = 0
-for i in range(7):
-    print(i+1,"번째 숫자 입력: ", end="")
-    numList.append(int(input()))
-    if(max < numList[i]): max = numList[i]
-print("가장 큰 수는 ", max,"입니다.")
-
